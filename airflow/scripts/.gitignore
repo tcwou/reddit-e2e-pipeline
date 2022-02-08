@@ -1,0 +1,7 @@
+configs/extract_data_config.json
+config.json
+Dockerfile
+requirements.txt
+archive/
+__pycache__/
+models/

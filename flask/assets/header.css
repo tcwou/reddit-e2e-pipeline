@@ -1,0 +1,32 @@
+.app-header {
+    height: 60px;
+    line-height: 70px;
+    border-bottom: thin lightgrey solid;
+}
+
+.app-header .app-header--title {
+    font-size: 60px;
+    padding-top: 10px;
+    font-family: Sparks-Dotline-Extrathick;
+}
+
+.app-header--title {
+    float: left;
+}
+
+.app-header-banner {
+    background: #021546;
+    color: #fff;
+    padding: 12px;
+    padding-left: 48px;
+}
+
+.app-section {
+    height: 60px;
+    line-height: 60px;
+    border-bottom: medium lightgrey solid;
+}
+
+.column-header-name {
+    margin-left: unset !important;
+}

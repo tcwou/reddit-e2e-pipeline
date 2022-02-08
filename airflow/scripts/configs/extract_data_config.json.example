@@ -1,0 +1,13 @@
+{
+    "subreddits": ["stocks", "stockmarket", "investing", "wallstreetbets"],
+    "ps_endpoint": "https://api.pushshift.io/reddit/search/submission/",
+    "pg_dbname": "dbname",
+    "pg_user": "user",
+    "pg_password": "password",
+    "pg_host": "127.0.0.1",
+    "pg_port": "5432",
+    "r_username": "",
+    "r_password": "",
+    "r_client_id": "",
+    "r_client_secret": ""
+}
