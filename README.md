@@ -11,3 +11,10 @@ The project makes use of two approaches to data pipelining:
 
 [The dashboard](https://www.wouhoo.net/stocks/) is the end-result of the AWS approach and is hosted on an EC2 instance. The pipeline runs on a daily schedule with a delay of two days to allow upvotes and comments to accumulate.  
 
+# Data Flow
+![diagram](https://wouhoo-public.s3.us-east-2.amazonaws.com/Reddit+pipeline+ETL.svg)
+- detailed description in progress
+
+# AWS Flow
+
+# Run Code
