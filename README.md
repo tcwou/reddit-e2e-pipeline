@@ -38,9 +38,9 @@ AWS provides a serveless solution to keep the data flow running on the cloud. Ev
 
 # Run Code (using airflow)
 
-* create docker config file in airflow/configs/, a template is provided.
-* create credentials config file in airflow/scripts/configs/ with postgres db and API credentials, a template is provided.
-* create requirements.txt and DockerFile within airflow/scripts/ and build Docker image
-* set airflow variables as defined in [extract_data_dag_daily.py](https://github.com/tcwou/reddit-e2e-pipeline/blob/main/airflow/dags/extract_data_dag_daily.py). The recommended value for day offset is 2.
-* run dashboard defined in [app.py](https://github.com/tcwou/reddit-e2e-pipeline/blob/main/flask/app.py) using either 'python app.py' for test mode, or gunicorn for production
+* Create docker config file in airflow/configs/, a template is provided.
+* Create credentials config file in airflow/scripts/configs/ with postgres db and API credentials, a template is provided.
+* Create requirements.txt and DockerFile within airflow/scripts/ and build Docker image
+* Set airflow variables as defined in [extract_data_dag_daily.py](https://github.com/tcwou/reddit-e2e-pipeline/blob/main/airflow/dags/extract_data_dag_daily.py). The recommended value for day offset is 2.
+* Run dashboard defined in [app.py](https://github.com/tcwou/reddit-e2e-pipeline/blob/main/flask/app.py) using either 'python app.py' for test mode, or gunicorn for production
 
