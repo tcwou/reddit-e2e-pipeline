@@ -30,6 +30,10 @@ For analysis purposes two aggregate tables with 'per subreddit' grain and 'subre
 
 For reproducibility purposes the tasks in the data flow are contaierized using Docker and can be orchestrated using either Airflow, or AWS Step Functions.
 
+Snapshot of the Overall section of the dashboard from 2022-02-08. During this period of time interest rates were increased for the first time in years leading to low average sentiment. FB had reported a drop in daily active users and decrease revenue due to AAPL iOS privacy changes.
+![diagram](https://wouhoo-public.s3.us-east-2.amazonaws.com/reddit_dashboard.png)
+
+
 # AWS
 
 ![diagram](https://wouhoo-public.s3.us-east-2.amazonaws.com/AWS.svg)
