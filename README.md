@@ -33,8 +33,11 @@ The various extract data scripts make use of the [reddit_to_postgres class](http
 
 For analysis purposes two aggregate tables with 'per subreddit' grain and 'subreddit-ticker' grain respectively and created and stored in the postgres data warehouse. These tables are queried by the dashboard.
 
-For reproducibility purposes the tasks in the data flow are contaierized using Docker and can be orchestrated using either Airflow [extract_data_dag_daily.py](https://github.com/tcwou/reddit-e2e-pipeline/blob/main/airflow/dags/extract_data_dag_daily.py), or AWS Step Functions.
+For reproducibility purposes the tasks in the data flow are contaierized using Docker and can be orchestrated using either Airflow (See [extract_data_dag_daily.py](https://github.com/tcwou/reddit-e2e-pipeline/blob/main/airflow/dags/extract_data_dag_daily.py)), or AWS Step Functions.
 
+Pipeline DAG diagram
+
+![diagram](https://wouhoo-public.s3.us-east-2.amazonaws.com/reddit_dag.PNG)
 
 # AWS
 
