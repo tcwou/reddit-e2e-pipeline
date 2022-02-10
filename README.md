@@ -37,7 +37,7 @@ For reproducibility purposes the tasks in the data flow are contaierized using D
 
 Pipeline DAG diagram
 
-![diagram](https://wouhoo-public.s3.us-east-2.amazonaws.com/reddit_dag.PNG)
+![diagram](https://wouhoo-public.s3.us-east-2.amazonaws.com/reddit_dag_airflow.PNG)
 
 # AWS
 
