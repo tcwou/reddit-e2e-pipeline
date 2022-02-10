@@ -12,6 +12,7 @@ The project makes use of two approaches to data pipelining:
 [The dashboard](https://www.wouhoo.net/stocks/) is the end-result of the AWS approach and is hosted on an EC2 instance. The pipeline runs on a daily schedule with a delay of two days to allow upvotes and comments to accumulate.  
 
 Snapshot of the Overall section of the dashboard from 2022-02-08. During this period of time interest rates were increased for the first time in years leading to low average sentiment. FB had reported a drop in daily active users and decrease revenue due to AAPL iOS privacy changes.
+
 ![diagram](https://wouhoo-public.s3.us-east-2.amazonaws.com/reddit_dashboard.png)
 
 
